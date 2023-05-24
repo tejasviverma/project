@@ -3,44 +3,48 @@
     <head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond:ital,wght@1,600&family=EB+Garamond&family=Roboto+Slab&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Cormorant+Garamond:ital,wght@1,600&family=EB+Garamond&family=Playfair:wght@300&family=Roboto+Slab&family=Source+Serif+Pro&display=swap" rel="stylesheet">
         <style>
-    .gradient-background {
-      background: linear-gradient(300deg, #69c8e8, #e587cf, #c37ff1);
-      background-size: 180% 180%;
-      animation: gradient-animation 18s ease infinite;
-      height: 100vh;
+   body{
+  background: linear-gradient(300deg, #37a2c59a, #8544d4, #0b157a);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  height: 100vh;
+ 
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+    
     }
-    @keyframes gradient-animation {
-      0% {
-        background-position: 0% 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;
-      }
+    .text{
+        font-family: 'Caveat', cursive;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Playfair', serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Source Serif Pro', serif;
+        color: rgb(249, 249, 249);
+        font-size: x-small;
+      
     }
-    .skill {
-      font-family: 'Caveat', cursive;
-        font-family: 'Cormorant Garamond', serif;
-        font-family: 'EB Garamond', serif;
-        font-family: 'Roboto Slab', serif;
-        font-family: 'Source Serif Pro', serif;
-        color: rgb(0, 0, 0);
-        font-size: medium;
-    }
+    
     
         </style>
         <body>
-            <div class="gradient-background">
-            <div class="skill">
-                <h1>I've very diverse skills. some are:
+            <div class="text">
+                <h1>SKILLS:
                 <ui>
                     <li> Drawing
                         <div>
-                            <img src="">
+                            <img class="img" src="./art.jpg" height="100" width="100">
                         </div>
                         <div>
                             <p> i love to draw</p>
@@ -48,22 +52,21 @@
                     </li>
                     <li>gymming</li>
                     <div>
-                        <img src="">
+                        <img class="img" src="./jim.jpg" height="100" width="100">
                     </div>
                     <p>i love powerlifting</p>
                     <li>reading</li>
                     <div>
-                        <img src="">
-                        <p></p>
+                        <img class="img" src="./read.jpg" height="100" width="100">
+                        <p>Helps me take my mind off things.</p>
                     </div>
                     <li>eating</li>
                     <div>
-                        <img src="">
+                        <img class="img" src="./eat.jpg" height="100" width="100">
                     </div>
-                    <p>i can just keep on eating</p>
+                    <p>it's either i eat my body weight in one meal or i eat nothing.</p>
                 </ui>
             </p>
-        </div>
         </div>
         </body>
     </head>
